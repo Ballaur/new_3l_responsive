@@ -1,0 +1,54 @@
+/* inicio footer 2*/
+
+.footer-2 {
+    justify-content: center;
+    background-image: url('../img/footer2.png');
+}
+
+.footer-2 .content {
+    display: flex;
+}
+
+.footer-2 p {
+    margin-top: 16px;
+    padding-top: 5px;
+    color: #ffffff;
+    margin-right: 0px;
+    height: 18px;
+    width: 595px;
+}
+
+.redes-sociais2 ul li {
+    display: inline-block;
+    margin-left: 23px;
+    top: 10px;
+}
+
+.redes-sociais2 ul {
+    display: flex;
+    list-style: none;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+
+/* responsivo footer 2 */
+
+@media(max-width: 600px) {
+    .footer-2 .content .contentfooter .redes-sociais2 {
+        display: flex;
+        width: 50%;
+    }
+    main,
+    .footer-2 .content .contentfooter .redes-sociais2 {
+        width: calc(100% - 32px);
+        max-width: calc(100% - 32px);
+        margin: 0 16px;
+    }
+    .footer-2 .content .contentfooter .redes-sociais2 {
+        justify-content: space-between;
+    }
+}
+
+
+/* fim do footer 2 */

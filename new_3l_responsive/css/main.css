@@ -1,0 +1,27 @@
+    body {
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+    }
+    /* respondivo  geral de textos*/
+    
+    @media(max-width: 600px) {
+        .texto-centro {
+            color: #4a4a4a;
+        }
+        .texto-centro p {
+            color: #5a5a5a;
+        }
+    }
+    
+    @media(max-width: 425px) {
+        .texto-centro {
+            font-size: 27px;
+            color: #4a4a4a;
+        }
+        .texto-centro p {
+            font-size: 24px;
+            color: #5a5a5a;
+        }
+    }
+    /* fim do responsivo de textos

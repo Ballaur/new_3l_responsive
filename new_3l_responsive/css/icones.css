@@ -1,0 +1,103 @@
+/* Formatação de textos*/
+
+.texto-centro {
+    width: 980px;
+    text-align: center;
+    font-size: 15px;
+    color: #9a9a9a;
+    /* width: 100%; */
+    margin-left: 20px
+}
+
+.texto-centro h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #818181;
+}
+
+.texto-centro strong {
+    color: #646464;
+}
+
+.texto-centro p {
+    text-align: center;
+    font-size: 15px;
+    color: #9a9a9a;
+}
+
+
+/* Fim da Formatação*/
+
+
+/* Layout */
+
+.bloco-icone .texto-centro {
+    align-items: center;
+    margin: 0 auto;
+}
+
+.bloco-icone .texto-centro .icone {
+    width: 980px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.outraclasse {
+    position: relative;
+    top: 6rem;
+}
+
+
+/*fim do layout */
+
+
+/* responsivo bloco icone */
+
+@media(max-width: 1082px) {
+    .bloco-icone .texto-centro {
+        width: 871px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bloco-icone .texto-centro {
+        width: 50%;
+    }
+    main,
+    .texto-centro {
+        width: calc(100% - 32px);
+        max-width: calc(100% - 32px);
+        margin: 0 16px;
+    }
+    .bloco-icone .texto-centro {
+        justify-content: space-between;
+    }
+}
+
+@media(max-width: 850px) {
+    .bloco-icone .bloco-texto {
+        width: 850px;
+        margin: 0 auto;
+    }
+    .texto-centro .icone {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 50%;
+    }
+    .icone .outraclasse {
+        top: 0rem;
+    }
+    main,
+    .icone {
+        width: calc(100% - 32px);
+        max-width: calc(100% - 32px);
+        margin: 0 16px;
+    }
+    .texto-centro .icone {
+        /* justify-content: space-between;*/
+    }
+}
+
+
+/* fim do bloco icone */

@@ -1,0 +1,141 @@
+/* Responsivo parte superior*/
+
+
+/*header*/
+
+.header-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header-1 .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px !important;
+}
+
+.redes-sociais ul {
+    margin-top: 15px;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+
+main,
+.content {
+    margin: 0 auto;
+    max-width: 980px;
+    position: relative;
+}
+
+.logo {
+    /*float: left;*/
+    padding: 16px;
+    width: 0 auto;
+}
+
+.redes-sociais ul li {
+    margin-left: 23px;
+    display: inline-block;
+    /*float: left;*/
+    list-style: none;
+}
+
+.redes-sociais {
+    width: 0 auto;
+    /*float: right;*/
+}
+
+
+/* fim do header*/
+
+
+/* menu*/
+
+.menu-urls {
+    /* background-color: #ffffff; */
+    /* background-color: white; */
+    /*border-bottom: 3px solid #252323;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.menu ul a {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 20px;
+}
+
+.menu ul a:hover {
+    color: #00bac6;
+}
+
+.menu ul a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+}
+
+.busca {
+    text-align: center;
+    width: 30%;
+}
+
+.busca input {
+    background-image: url('../img/icone-search.png');
+    background-repeat: no-repeat;
+    height: 36px;
+    /* width: 190px; */
+    /* margin-top: 10px; */
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
+}
+
+
+/*fim do menu*/
+
+@media(max-width: 920px) {
+    .menu-principal .header-1 .redes-sociais {
+        width: 210px;
+    }
+    .header-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .header-1 {
+        /*width: calc(100% - 32px);*/
+        max-width: calc(100% - 32px);
+        margin: 0 16px;
+    }
+}
+
+@media(max-width: 768px) {
+    .menu-urls {
+        display: table;
+        margin-left: 50px;
+    }
+}
+
+@media(max-width: 425px) {
+    .menu-urls .busca {
+        margin-left: 50px;
+    }
+}
