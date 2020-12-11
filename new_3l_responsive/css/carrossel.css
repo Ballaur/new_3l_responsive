@@ -109,3 +109,9 @@ li.slick-active button {
 
 
 /* FIM DO BANNER*/
+
+@media (max-width: 320px) {
+    .slick-dots {
+        opacity: 0 !important;
+    }
+}

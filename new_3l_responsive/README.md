@@ -1,10 +1,8 @@
 ## diario de att
 
-menu hamburger adicionado
-ajustes em andamento...
+-menu hamburger adicionado.
+-menu hamburguer concluido.
 
-## Menu Hamburguer
+## check responsividade geral
 
-Divs e formatação de texto em processo.
-
-o comportamento do JS esta comecando a fazer sentido na minha cabeça.
+analisando o comportamento geral do site em todos os breakponits

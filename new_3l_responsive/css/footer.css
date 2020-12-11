@@ -17,7 +17,7 @@
 }
 
 .footer .content-footer p {
-    width: 80%;
+    width: 82%;
     text-align: justify;
 }
 
@@ -42,7 +42,7 @@
     content: '';
     width: 18px;
     height: 28px;
-    display: inline-block;
+    display: column;
     float: left;
     background-repeat: no-repeat;
     padding-left: 5px;

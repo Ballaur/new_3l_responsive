@@ -69,10 +69,21 @@ main,
     flex-wrap: wrap;
     align-items: center;
     margin: 0 auto;
-    padding: 15px;
+    padding: 23px;
+}
+
+.menu .sidebar {
+    height: 150px;
+}
+
+.menu ul {
+    align-items: center;
+    display: flex;
+    height: 100%;
 }
 
 .menu ul a {
+    height: auto;
     display: inline-block;
     color: #8b8b8b;
     margin-left: 20px;
@@ -99,15 +110,16 @@ main,
     width: 30%;
 }
 
-.busca input {
+
+/* .busca input {
     background-image: url('../img/icone-search.png');
     background-repeat: no-repeat;
     height: 36px;
-    /* width: 190px; */
-    /* margin-top: 10px; */
+    width: 190px;
+    margin-top: 10px;
     background-position: 96%;
     border: 1px solid #d6d6d6;
-}
+} */
 
 
 /*fim do menu*/
@@ -135,6 +147,7 @@ main,
 }
 
 @media(max-width: 425px) {
+    /* .menu-urls .busca { */
     .menu-urls .busca {
         margin-left: 50px;
     }
