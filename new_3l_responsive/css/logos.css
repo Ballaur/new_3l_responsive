@@ -74,12 +74,25 @@
 @media(max-width: 768px) {
     .bloco-logos .content>div {
         width: 25%;
-        display: flex;
-        flex-wrap: wrap;
         padding: 16px;
     }
     .bloco-logos .content {
+        display: flex;
+        flex-wrap: inherit;
         justify-content: space-around;
+    }
+}
+
+@media(max-width: 425px) {
+    .bloco-logos .content>div {
+        width: 25%;
+        padding: 16px;
+    }
+    .bloco-logos .content {
+        display: list-item;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 }
 

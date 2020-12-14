@@ -69,7 +69,7 @@ main,
     flex-wrap: wrap;
     align-items: center;
     margin: 0 auto;
-    padding: 23px;
+    padding: 23px 0px;
 }
 
 .menu .sidebar {
