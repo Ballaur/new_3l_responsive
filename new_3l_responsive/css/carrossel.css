@@ -1,7 +1,39 @@
 /* BANNER*/
 
+body {
+    /* display: flex; */
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-100 .banner {
+    height: auto;
+}
+
+#slider {
+    width: 0 auto;
+    /* max-width: 500px; */
+    height: 86.5vh;
+    /* max-height: 150px; */
+    position: relative;
+}
+
+#slider img {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 800ms;
+}
+
+#slider img.selected {
+    opacity: 1;
+}
+
 @media(max-width: 100%) {
-    .col-100 .banner {
+    .col-100 .banner .slider-principal {
         width: 1366px;
         margin: 0 auto;
     }
@@ -35,83 +67,5 @@
     position: relative;
 }
 
-.slick-slider {
-    width: 100%;
-    position: relative;
-}
-
-button.slick-prev {
-    font-size: 0px;
-    border: none;
-    width: 25px;
-    height: 51px;
-    z-index: 9;
-    background-color: transparent;
-    position: absolute;
-    background-image: url('../img/anterior.png');
-    top: 35%;
-    transform: translateY(50%);
-    left: 14%;
-}
-
-button.slick-next {
-    font-size: 0px;
-    border: none;
-    width: 25px;
-    height: 51px;
-    z-index: 9;
-    background-color: transparent;
-    position: absolute;
-    background-image: url('../img/proximo.png');
-    top: 35%;
-    transform: translateY(50%);
-    right: 14%;
-}
-
-.slick-list {
-    width: 100% !important;
-}
-
-.slick-initialized {
-    overflow: hidden;
-}
-
-.slick-dots li button {
-    font-size: 0px;
-    border: 5px solid #ffffff;
-    width: 26px;
-    height: 26px;
-    background: transparent;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.slick-dots {
-    margin: 0 auto;
-    position: absolute;
-    left: 50%;
-    bottom: 15px;
-    transform: translateX(-50%);
-}
-
-.slick-dots li {
-    display: inline-block;
-}
-
-li.slick-active button {
-    background-color: #00bac6;
-}
-
-.slick-dots li {
-    padding-left: 10px;
-    display: inline-block;
-}
-
 
 /* FIM DO BANNER*/
-
-@media (max-width: 320px) {
-    .slick-dots {
-        opacity: 0 !important;
-    }
-}

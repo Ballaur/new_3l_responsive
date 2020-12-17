@@ -11,4 +11,8 @@ analisando o comportamento geral do site em todos os breakpoints
 
 na intenção de realizar o faceliftin do codigo e evitar a sobreposição de codigos.
 
-separei todas as seçoes do site em arquivos css separados.
+separei todas as seçoes do site em arquivos css distintos.
+
+## Carroussel..
+
+jquery substituido por funçãoem JavaScript de tamanho consideravelmente reduzido.
